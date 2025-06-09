@@ -1,6 +1,7 @@
 package com.amarthya.us;
 
 import com.amarthya.us.dto.OrderDTO;
+import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;
 import io.github.resilience4j.retry.annotation.Retry;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
